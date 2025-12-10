@@ -7,7 +7,7 @@ import os
 
 videos_folder = "videos"
 videos = os.listdir(videos_folder)
-output_dir = "src/frames"
+output_dir = "frames"
 os.makedirs(output_dir, exist_ok=True)
 
 count = 0
